@@ -1,9 +1,34 @@
 <html>
 
-<head></head>
+<head>
+    <style>
+        html {
+            font-family: Arial;
+            display: inline-block;
+            margin: 0px auto;
+            text-align: center;
+        }
+
+        body {
+            background-color: burlywood;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        h2 {
+            color:blueviolet
+        }
+
+        a {
+            color:blueviolet
+        }
+
+    </style>
+</head>
 
 <body>
-
     <?php
     $name = 'Sherlock Holmes';
     echo "<h1>$name</h1>";
@@ -13,10 +38,13 @@
     echo "<h1>$author</h1>";
     ?>
 
-    <li><a href="about.php">About</a></li>
+    <h2>
+        <li><a href="about.php">About</a></li>
+    </h2>
+    <h2>
+        <li><a href="author.php">Author Biodata</a></li>
+    </h2>
     <img src="cover.jpg">
-
-
 
 </body>
 
