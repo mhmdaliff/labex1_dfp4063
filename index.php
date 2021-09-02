@@ -1,6 +1,6 @@
 <html style="background-color:powderblue;">
 
-<head><h1 font-size: 50px>eBookstore</h1></head>
+<head></head>
 
 <body>
 <h2>Sherlock Holmes</h2>
