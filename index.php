@@ -2,6 +2,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="form.php">
+    <title>Sherlock Holmes</title>
 </head>
 
 <body>

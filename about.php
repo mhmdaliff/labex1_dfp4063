@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="form.php">
+    <title>About Author</title>
 </head>
 
 <body>
