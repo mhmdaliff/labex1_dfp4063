@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Author Biodata</title>
-    <link rel="stylesheet" href="form.php">
+    <link rel="stylesheet" href="form.css">
 </head>
 
 <body>
     <h1>
         <li><a href="index.php">Home</a></li>
-        <h1>
+        <p>
             <?php
             echo "<center><h1>Sir Arthur Conan Doyle</h1></center>";
 
@@ -21,6 +21,7 @@
             echo "<h3>Sir Arthur Ignatius Conan Doyle (22 May 1859 – 7 July 1930) was a British writer and physician. He created the character Sherlock Holmes in 1887 for A Study in Scarlet, the first of four novels and fifty-six short stories about Holmes and Dr. Watson. The Sherlock Holmes stories are milestones in the field of crime fiction.</h3>";
             ?>
             <img src="conandoyle.jpg">
+        </p>
 </body>
 
 </html>
