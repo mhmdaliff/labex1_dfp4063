@@ -11,17 +11,16 @@
 
 <body>
     <h1>
-        <li><a href="index.php">Home</a></li>
+        <?php include 'menu.php'; ?>
+        <p>
+        <h1>Sir Arthur Conan Doyle</h1>
         <p>
             <?php
-            echo "<center><h1>Sir Arthur Conan Doyle</h1></center>";
-
+            $author = "Sir Arthur Ignatius Conan Doyle (22 May 1859 – 7 July 1930) was a British writer and physician. He created the character Sherlock Holmes in 1887 for A Study in Scarlet, the first of four novels and fifty-six short stories about Holmes and Dr. Watson. The Sherlock Holmes stories are milestones in the field of crime fiction.";
+            echo "<p>$author</p>";
             ?>
-            <?php
-            echo "<h3>Sir Arthur Ignatius Conan Doyle (22 May 1859 – 7 July 1930) was a British writer and physician. He created the character Sherlock Holmes in 1887 for A Study in Scarlet, the first of four novels and fifty-six short stories about Holmes and Dr. Watson. The Sherlock Holmes stories are milestones in the field of crime fiction.</h3>";
-            ?>
-            <img src="conandoyle.jpg">
         </p>
+        <img src="conandoyle.jpg">
 </body>
 
 </html>
